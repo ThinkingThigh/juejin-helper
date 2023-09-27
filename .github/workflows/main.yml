@@ -20,9 +20,6 @@ jobs:
         git diff
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Action"
-        git commit -am "Update date in README" && echo ::set-output name=status::success || echo ::set-output name=status::skipped 
-        if [ $(date $$$(steps.commit.outputs.status) == "success" ]
-          then 
-            git push  
-          fi  
+        git commit -am "Update date in README"
+        git push 
 
