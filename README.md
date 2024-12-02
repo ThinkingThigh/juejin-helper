@@ -4,7 +4,7 @@
   </a>
 </section>
 
-<h1 align="center">JuejinHelper-稀土掘金助手2024-12-01</h1>
+<h1 align="center">JuejinHelper-稀土掘金助手2024-12-02</h1>
 
 <p align="center">签到、抽奖、沾喜气、消除Bug、海底掘金游戏、自动化工作流。</p>
 
